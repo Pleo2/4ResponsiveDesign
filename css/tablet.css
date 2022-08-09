@@ -20,6 +20,7 @@ body main .main__plans .plans__card {
 }
 body main .main__plans .plans__card {
   justify-content: space-evenly;
+  overflow-x: hidden;
 }
 body footer {
   width: 100%;

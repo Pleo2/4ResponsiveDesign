@@ -24,6 +24,7 @@
             .main__plans{
                 .plans__card{
                     justify-content: space-evenly;
+                    overflow-x: hidden;
                 }
             }
     }
