@@ -29,7 +29,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-width: 28rem;
+    min-width: 32rem;
     height: 34.4rem;
     text-align: center;
     //background
@@ -45,7 +45,7 @@ header{
         text-align: center;
         margin-top: 5rem;
         width: 88%;
-        min-width: 28rem;//define el minimo responsive
+        min-width: 32rem;//define el minimo responsive
         max-width: 90rem;//define el maximo responsive
         height: 21.8rem;
         h1{
@@ -94,7 +94,7 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    min-width: 28rem;
+    min-width: 32rem;
     height: auto;
     //background
     background-color: $off-white;
@@ -148,7 +148,7 @@ main{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-width: 28rem;
+            min-width: 32rem;
             height: 20rem;
 
             .main-tables__grid-container{
@@ -269,7 +269,7 @@ main{
                                     display: block;
                                     width: 1.4rem;
                                     height: 1.4rem;
-                                    background-image: url(/4RenponiveDesign/assets/icons/trending-up.svg);
+                                    background-image: url(../assets/icons/trending-down.svg);
                                     background-size: cover;
                                     background-position: center;
                                     background-repeat: no-repeat;
@@ -278,7 +278,7 @@ main{
                                     display: block;
                                     width: 1.4rem;
                                     height: 1.4rem;
-                                    background-image: url(/4RenponiveDesign/assets/icons/trending-down.svg);
+                                    background-image: url(../assets/icons/trending-up.svg);
                                     background-size: cover;
                                     background-position: center;
                                     background-repeat: no-repeat;
@@ -300,7 +300,7 @@ main{
                     display: block;
                     width: 0.52rem;
                     height: 0.52rem;
-                    background-image: url(/4RenponiveDesign/assets/icons/right-arrow.svg);
+                    background-image: url(../assets/icons/right-arrow.svg);
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
